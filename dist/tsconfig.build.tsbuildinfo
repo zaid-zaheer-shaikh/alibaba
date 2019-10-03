@@ -1214,7 +1214,7 @@
         "signature": "2608cfd623840916e664e68c3dc5eb4347ccae822f808d899bf00e73cbab2bfe"
       },
       "/users/zaidshaikh/alibaba/src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "8ec1a1845ba1caa977bba1ce54fe477b6a6fbafb6601ded9020b3738910f46fc",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
       },
       "/users/zaidshaikh/alibaba/node_modules/@types/connect/index.d.ts": {
@@ -5334,6 +5334,7 @@
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/utils/forward-ref.util.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/utils/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
+      "/users/zaidshaikh/alibaba/src/app.service.ts",
       "/users/zaidshaikh/alibaba/src/app.controller.ts",
       "/users/zaidshaikh/alibaba/src/app.module.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
@@ -5377,8 +5378,7 @@
       "/users/zaidshaikh/alibaba/node_modules/@types/jest/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/json5/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/superagent/index.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@types/supertest/index.d.ts",
-      "/users/zaidshaikh/alibaba/src/app.service.ts"
+      "/users/zaidshaikh/alibaba/node_modules/@types/supertest/index.d.ts"
     ]
   },
   "version": "3.4.3"
