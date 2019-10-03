@@ -1,0 +1,17 @@
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class AppService {
+  getHello(): string {
+    return 'Hello World!';
+  }
+  getHello1(): string {
+    return 'Hello World!';
+  }
+  getHello2():string {
+     return 'super cool';
+  }
+  jumper2():string {
+     return "hello world"
+  }
+}
