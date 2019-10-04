@@ -11,7 +11,5 @@ export class AppService {
   getHello2():string {
      return 'super cool';
   }
-  jumper2():string {
-     return "hello world"
-  }
+ 
 }
