@@ -17,9 +17,6 @@ let AppService = class AppService {
     getHello2() {
         return 'super cool';
     }
-    jumper2() {
-        return "hello world";
-    }
 };
 AppService = __decorate([
     common_1.Injectable()
