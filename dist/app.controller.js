@@ -21,19 +21,28 @@ let AppController = class AppController {
     getHello1() {
         return this.appService.getHello();
     }
+    setter() {
+        return "Hello world";
+    }
 };
 __decorate([
-    common_1.Get('getter'),
+    common_1.Get('ali'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHello", null);
 __decorate([
-    common_1.Get('getter1'),
+    common_1.Get('maaz'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHello1", null);
+__decorate([
+    common_1.Get('jabbar'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], AppController.prototype, "setter", null);
 AppController = __decorate([
     common_1.Controller('namer'),
     __metadata("design:paramtypes", [app_service_1.AppService])

@@ -14,6 +14,7 @@
     "start:debug": "nodemon --config nodemon-debug.json",
     "start:prod": "node dist/main.js",
     "lint": "tslint -p tsconfig.json -c tslint.json",
+    "build": "tsc -p tsconfig.build.json",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
