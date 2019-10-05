@@ -11,12 +11,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const app_service_1 = require("./app.service");
+const date_and_time_1 = require("date-and-time");
 let AppController = class AppController {
     constructor(appService) {
         this.appService = appService;
     }
     getHello() {
-        return this.appService.getHello();
+        const now = new Date();
+        return date_and_time_1.default.format(now, 'YYYY/MM/DD HH:mm:ss');
     }
     getHello1() {
         return this.appService.getHello();
@@ -29,7 +31,7 @@ __decorate([
     common_1.Get('ali'),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", []),
-    __metadata("design:returntype", String)
+    __metadata("design:returntype", Object)
 ], AppController.prototype, "getHello", null);
 __decorate([
     common_1.Get('maaz'),
