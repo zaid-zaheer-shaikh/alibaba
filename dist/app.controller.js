@@ -19,7 +19,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const app_service_1 = require("./app.service");
-const date_and_time_1 = require("date-and-time");
+const even = require("is-even");
 let AppController = class AppController {
     constructor(appService) {
         this.appService = appService;
@@ -27,8 +27,8 @@ let AppController = class AppController {
     getHello() {
         return __awaiter(this, void 0, void 0, function* () {
             const now = new Date();
-            yield date_and_time_1.default.format(now, 'YYYY/MM/DD HH:mm:ss');
-            return "OK";
+            yield even(2);
+            return "Hello world";
         });
     }
     getHello1() {

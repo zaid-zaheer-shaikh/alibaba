@@ -1,7 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 import { REPL_MODE_SLOPPY } from 'repl';
-import date from 'date-and-time';
+import * as even from 'is-even';
 
 @Controller('namer')
 export class AppController {
@@ -10,8 +10,8 @@ export class AppController {
   @Get('ali')
   async getHello(): Promise<any > {
     const now = new Date();
-     await date.format(now, 'YYYY/MM/DD HH:mm:ss');
-     return "OK"
+     await even(2); 
+     return "Hello world";
      
   }
   @Get('maaz')
