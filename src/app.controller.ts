@@ -16,7 +16,7 @@ export class AppController {
   }
   @Get('maaz')
   getHello1(): string {
-    return this.appService.getHello();  
+    return this.appService.getHello();
   }
   @Get('jabbar')
   setter():string {
