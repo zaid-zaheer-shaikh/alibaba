@@ -8,14 +8,15 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('ali')
-  getHello(): any {
+  async getHello(): Promise<any > {
     const now = new Date();
-    return date.format(now, 'YYYY/MM/DD HH:mm:ss');
+     await date.format(now, 'YYYY/MM/DD HH:mm:ss');
+     return "OK"
      
   }
   @Get('maaz')
   getHello1(): string {
-    return this.appService.getHello();
+    return this.appService.getHello();  
   }
   @Get('jabbar')
   setter():string {
