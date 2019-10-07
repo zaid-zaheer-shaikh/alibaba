@@ -1,5 +1,30 @@
+import { Model } from 'mongoose';
+import { Registration } from './interface/registration.interface';
+import { CreateGetUsernameDto, binaryVote, criteria } from './dto/create-get-username.dto';
 export declare class AppService {
-    getHello(): string;
-    getHello1(): string;
-    getHello2(): string;
+    private readonly appModel;
+    constructor(appModel: Model<Registration>);
+    createRegistration(createObj: CreateGetUsernameDto): Promise<any>;
+    checkUsername(createObj: CreateGetUsernameDto): Promise<any>;
+    setCriteria(username: string, criteria: criteria): Promise<boolean>;
+    getCriteria(username: string): Promise<criteria>;
+    generateVoters(username: string): Promise<any>;
+    setVoteCount(voters: any[], username: any): Promise<boolean | any>;
+    getVoteCount(username: string): Promise<number | boolean>;
+    getBinaryResult(username: string): Promise<any[]>;
+    checkVotingCompleted(username: any): Promise<boolean>;
+    setToken(token: string, username: string): Promise<boolean | any>;
+    getToken(username: string): Promise<string | boolean>;
+    setBinaryImage(imageString: string, username: string): Promise<any>;
+    getBinaryImage(username: string): Promise<string | boolean>;
+    setBinaryVote(binaryVote: binaryVote, username: any): Promise<boolean | any>;
+    getBinaryVote(username: string): Promise<binaryVote | boolean>;
+    setTempNumber(tempNumber: number, username: string): Promise<boolean | any>;
+    getTempNumber(username: string): Promise<number | boolean>;
+    setPhoneNumber(phoneNumber: number, username: string): Promise<boolean | any>;
+    setCode(code: string, username: string): Promise<boolean | any>;
+    getPhonenumber(username: string): Promise<string | boolean>;
+    getCode(username: string): Promise<string | boolean>;
+    setPassword(password: string, username: string): Promise<boolean | object>;
+    getPassword(username: string): Promise<string | any>;
 }
