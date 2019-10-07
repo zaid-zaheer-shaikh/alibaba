@@ -9,11 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
 const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
+const mongoose_1 = require("@nestjs/mongoose");
+const app_schema_1 = require("./app.schema");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
     common_1.Module({
-        imports: [],
+        imports: [mongoose_1.MongooseModule.forRoot("mongodb://zaid123:chemistry1Zu!@ds121295.mlab.com:21295/oneminute", { useNewUrlParser: true }),
+            mongoose_1.MongooseModule.forFeature([{ name: 'App', schema: app_schema_1.AppSchema, }]),],
         controllers: [app_controller_1.AppController],
         providers: [app_service_1.AppService],
     })
