@@ -7,13 +7,7 @@ import * as even from 'is-even';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('ali')
-  async getHello(): Promise<any > {
-    const now = new Date();
-     await even(2); 
-     return "Hello world";
-     
-  }
+  
   @Get('maaz')
   getHello1(): string {
     return this.appService.getHello();

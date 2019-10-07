@@ -1090,8 +1090,8 @@
         "signature": "5d5601760bfafd8ac5359570b3446b2bcfef5c5af23234fe0dca6051fd6fd326"
       },
       "/users/zaidshaikh/alibaba/src/app.controller.ts": {
-        "version": "a6d69e0b7e7b7dcf3e43c8508e706e3d2dd95bb9752a79d7c988e8c353bc666b",
-        "signature": "1122e92a05a2d43608fabf8200e3d67da3dc30dc26fb07c214952075175e222a"
+        "version": "8220774d450bf18e8321d28509ee11bfaad3d1d0c8dbebd03b312d29c24d0c69",
+        "signature": "2f75224b70319a4d9bdbc5dceb67ac53af6e4fa10169eb239c6b424164b28d78"
       },
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": {
         "version": "120fe6ff3f553b3d2a0e065b6fea421698be40a802273652871273338085873c",
@@ -4880,6 +4880,50 @@
       "/users/zaidshaikh/alibaba/src/app.controller.ts": [
         "/users/zaidshaikh/alibaba/src/app.service.ts"
       ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/rxjs/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/interfaces/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/index.d.ts": [
+        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
+        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
         "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -5148,50 +5192,6 @@
       ],
       "/users/zaidshaikh/alibaba/node_modules/@types/supertest/index.d.ts": [
         "/users/zaidshaikh/alibaba/node_modules/@types/superagent/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/index.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/rxjs/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/interfaces/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
-        "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
-      ],
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts": [
-        "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
         "/users/zaidshaikh/alibaba/node_modules/@types/node/util.d.ts",
         "/users/zaidshaikh/alibaba/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -5469,7 +5469,15 @@
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/utils/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/common/index.d.ts",
       "/users/zaidshaikh/alibaba/src/app.service.ts",
-      "/users/zaidshaikh/alibaba/src/app.controller.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts",
+      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/index.d.ts",
+      "/users/zaidshaikh/alibaba/src/app.schema.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/adapters/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/constants.d.ts",
@@ -5499,6 +5507,7 @@
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/services/reflector.service.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/services/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@nestjs/core/index.d.ts",
+      "/users/zaidshaikh/alibaba/src/main.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/connect/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/body-parser/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/cookiejar/index.d.ts",
@@ -5511,17 +5520,8 @@
       "/users/zaidshaikh/alibaba/node_modules/@types/json5/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/superagent/index.d.ts",
       "/users/zaidshaikh/alibaba/node_modules/@types/supertest/index.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.decorators.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/mongoose.utils.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/common/index.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/mongoose-options.interface.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/interfaces/index.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/mongoose.module.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/dist/index.d.ts",
-      "/users/zaidshaikh/alibaba/node_modules/@nestjs/mongoose/index.d.ts",
-      "/users/zaidshaikh/alibaba/src/app.schema.ts",
-      "/users/zaidshaikh/alibaba/src/app.module.ts",
-      "/users/zaidshaikh/alibaba/src/main.ts"
+      "/users/zaidshaikh/alibaba/src/app.controller.ts",
+      "/users/zaidshaikh/alibaba/src/app.module.ts"
     ]
   },
   "version": "3.4.3"
