@@ -37,7 +37,7 @@
     "graphql": "^14.5.3",
     "graphql-tools": "^4.0.5",
     "graphql-upload": "^8.0.7",
-    "mongoose": "^5.5.15",
+    "mongoose": "^5.7.5",
     "npm-install-missing": "^0.1.4",
     "passport": "^0.4.0",
     "passport-http-bearer": "^1.0.1",
